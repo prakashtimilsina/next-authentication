@@ -22,6 +22,7 @@ export const config ={
     matcher : [
         '/',
         '/profile',
+        '/profile/:path*',
         '/login',
         '/signup',
     ]
